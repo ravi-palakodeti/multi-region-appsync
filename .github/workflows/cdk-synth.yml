@@ -14,8 +14,8 @@ jobs:
    - name: Wait
      run: sleep 5 # give the runtime 5 seconds to initialize
 
-  #  - name: Checkout
-  #    uses: actions/checkout@v2
+   - name: Checkout
+     uses: actions/checkout@v2
 
    - name: Configure AWS Variables
      shell: bash
